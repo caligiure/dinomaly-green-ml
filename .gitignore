@@ -1,0 +1,25 @@
+# Python bytecode e cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Pesi pre-addestrati e checkpoint pesanti (limite GitHub 100 MB)
+backbones/weights/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Output grezzi di training e log temporanei
+saved_results/
+training_log.txt
+*.log
+
+# Ambienti virtuali e file di sistema / IDE
+venv/
+.venv/
+.vscode/
+.DS_Store
+*:Zone.Identifier
